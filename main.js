@@ -44,5 +44,5 @@ ozInput.addEventListener("input", function (e) {
   var oz = e.target.value;
   gmInput.setAttribute("placeholder", oz * 28.3495);
   lbsInput.setAttribute("placeholder", oz * 0.0625);
-  kgInput.setAttribute("placeholder", 0.0283495);
+  kgInput.setAttribute("placeholder", oz * 0.0283495);
 });
